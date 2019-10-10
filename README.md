@@ -2,4 +2,4 @@
 
 > MainViewPosts
 
-![Screenshot](screnshot\First.png)
+![Screenshot](\screnshot\First.png)
