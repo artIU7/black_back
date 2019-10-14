@@ -27,7 +27,7 @@ var objectArea = oldArea("LTE", 43.5, 39.6, 1500)
 public func routes(_ router: Router) throws {
     // Basic "Hello, world!" example
     router.get("api","v3","oldarea"/*, Request*/) { req in
-    return "ggg"
+        return req.description
     }
     //
   /*  router.get("api","v3","oldarea","json") { req -> Future<String> in
